@@ -1,8 +1,9 @@
-import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
-
+import { configureStore } from "@reduxjs/toolkit";
+import userReducer from "../features/social/userSlice";
+import posteReducer from "../features/social/posteSlice";
 export default configureStore({
-  reducer: {
-    counter: counterReducer,
-  },
+	reducer: {
+		user: userReducer,
+		poste: posteReducer,
+	},
 });

@@ -1,0 +1,98 @@
+.navBar {
+	background-color: #153e90;
+	align-items: center;
+	color: white !important;
+	min-width: 100vh !important;
+	width: 100% !important;
+	display: flex;
+	justify-content: space-between;
+}
+.navbar__start {
+	margin-left: 10px;
+	justify-content: left !important;
+}
+.navbar__middle {
+	display: flex;
+	outline: none !important;
+}
+.navbar__middle .MuiIconButton-root {
+	color: white;
+	outline: none !important;
+}
+
+.MuiButton-root {
+	outline: none !important;
+}
+
+.navbar__end .MuiButton-root {
+	color: white;
+	outline: none !important;
+}
+.navbar__end {
+	align-items: center !important;
+	display: flex;
+	justify-content: space-evenly !important;
+}
+.navbar__end .MuiSvgIcon-root {
+	color: red;
+}
+
+.navbar__middle .MuiSvgIcon-fontSizeLarge {
+	font-size: xx-large;
+}
+
+.inputposte {
+	min-width: 100vh;
+}
+
+.inputposte__card {
+	margin-top: 30px;
+	width: 100%;
+	border-color: #153e90;
+}
+.navbar__middle .MuiButtonBase-root {
+	margin-right: 35px !important;
+	margin-left: 35px !important;
+}
+.navbar__end .MuiButtonBase-root {
+	margin-right: 15px !important;
+	margin-left: 15px !important;
+}
+.MuiButtonBase-root {
+	outline: none !important;
+}
+.card-body {
+	padding-right: 16px;
+	padding-left: 16px;
+}
+
+.poste__header {
+	border-bottom: solid 1px #153e90;
+	padding: 15px !important;
+}
+
+.inputposte__img {
+	border-bottom: solid 1px #153e90;
+}
+.inputposte__img img {
+	width: 100% !important;
+	min-height: 350px !important;
+}
+.poste__footer {
+	padding: 15px !important;
+	width: max-content;
+}
+.poste {
+	min-width: 100vh;
+}
+.poste__profile {
+	padding: 15px !important;
+	display: flex;
+	align-items: center !important;
+}
+.MuiButton-iconSizeMedium > *:first-child {
+	font-size: 25px !important;
+}
+.infinityWidth {
+	overflow: visible !important ;
+}

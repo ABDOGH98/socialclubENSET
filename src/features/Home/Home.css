@@ -1,0 +1,53 @@
+* {
+	margin: 0px;
+}
+.Carousel__img {
+	height: 100vh;
+	width: 100%;
+}
+
+.Carousel__img :nth-child(1) {
+	width: 100%;
+	height: 100%;
+}
+
+.form__div {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%, -50%);
+	background-color: rgba(255, 255, 255, 0.6);
+	padding-bottom: 20px;
+	max-width: 55vh;
+	min-width: 30%;
+	max-height: 40%;
+	overflow-y: auto;
+}
+
+.signin__inputMail {
+	width: max-content !important;
+	margin-top: 20px !important;
+	left: 50%;
+	transform: translateX(-50%);
+	display: block !important;
+	flex: 1;
+}
+.signin__btn {
+	width: 250px;
+	margin-top: 20px !important;
+	left: 50%;
+	transform: translateX(-50%);
+	display: block;
+	flex: 1;
+}
+
+.form__div {
+	display: flex;
+	justify-content: space-between !important;
+}
+.form__div:nth-child(1) {
+	display: block;
+}
+.form__div:nth-child(2) {
+	display: block;
+}
